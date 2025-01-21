@@ -26,4 +26,7 @@ public class Book {
     public String toString(){
         return "Title: " + this.title + "\tAuthor: " + this.author + "\tGenre: " + this.genre + "\tQuantity: "+ this.qty + "\tPublisher: "+ this.publisher;
     }
+    public String toCSV(){
+        return this.title + "," + this.author + "," + this.genre + "," + this.qty + "," + this.publisher;
+    }
 }
