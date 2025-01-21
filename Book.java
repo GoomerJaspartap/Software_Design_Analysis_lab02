@@ -23,4 +23,7 @@ public class Book {
     public String getPublisher(){
         return this.publisher;
     }
+    public String toString(){
+        return "Title: " + this.title + "\tAuthor: " + this.author + "\tGenre: " + this.genre + "\tQuantity: "+ this.qty + "\tPublisher: "+ this.publisher;
+    }
 }
